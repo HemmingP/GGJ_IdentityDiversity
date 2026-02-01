@@ -2,8 +2,8 @@
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
-[Bb]uilds/
+# [Bb]uild/
+# [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
 UserSettings/
@@ -71,8 +71,8 @@ Assets/AssetStoreTools*
 # *.zip
 
 # Prevent accidental check-in of build folders
-/Build/
-/Builds/
+# /Build/
+# /Builds/
 /Release/
 /Distribution/
 
