@@ -33,7 +33,7 @@ public class HandheldControlsHider : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-        if (SystemInfo.deviceType == DeviceType.Handheld)
+        if (SystemInfo.deviceType != DeviceType.Handheld)
         {
             gameObject.SetActive(false);
         }
