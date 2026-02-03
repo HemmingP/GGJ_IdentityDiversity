@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6327014377735985887}
   - component: {fileID: 8135148679926293636}
   - component: {fileID: 8829178754961378849}
+  - component: {fileID: 5295703628289340092}
   m_Layer: 5
   m_Name: Water Option
   m_TagString: Untagged
@@ -97,6 +98,19 @@ MonoBehaviour:
   backgroundImageActive: {r: 0, g: 0.11764706, b: 0.39215687, a: 1}
   imageInactive: {r: 1, g: 1, b: 1, a: 0.1254902}
   imageActive: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &5295703628289340092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462699968130016503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.OnScreen.OnScreenButton
+  m_ControlPath: <Keyboard>/1
 --- !u!1 &2389761754649770352
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +929,7 @@ GameObject:
   - component: {fileID: 2411784945192108211}
   - component: {fileID: 9100947443258578632}
   - component: {fileID: 8104870046509597945}
+  - component: {fileID: 6807651639145039142}
   m_Layer: 5
   m_Name: Fire Option
   m_TagString: Untagged
@@ -1000,6 +1015,19 @@ MonoBehaviour:
   backgroundImageActive: {r: 0.7647059, g: 0.12156863, b: 0, a: 0.9411765}
   imageInactive: {r: 1, g: 1, b: 1, a: 0.1254902}
   imageActive: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &6807651639145039142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6217491265689814890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.OnScreen.OnScreenButton
+  m_ControlPath: <Keyboard>/2
 --- !u!1 &6261528242568878998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1314,7 @@ GameObject:
   - component: {fileID: 7157944804620187111}
   - component: {fileID: 8249039337430153547}
   - component: {fileID: 2827141522315447601}
+  - component: {fileID: 7767941452596841586}
   m_Layer: 5
   m_Name: Cold Option
   m_TagString: Untagged
@@ -1371,6 +1400,19 @@ MonoBehaviour:
   backgroundImageActive: {r: 0, g: 0.5686275, b: 0.5686275, a: 0.9411765}
   imageInactive: {r: 1, g: 1, b: 1, a: 0.1254902}
   imageActive: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &7767941452596841586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7593542246726770789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.OnScreen.OnScreenButton
+  m_ControlPath: <Keyboard>/4
 --- !u!1 &7902413985426224195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +1652,7 @@ GameObject:
   - component: {fileID: 4982331179308764269}
   - component: {fileID: 900486467367171821}
   - component: {fileID: 3417851822063942075}
+  - component: {fileID: 5795054408626559204}
   m_Layer: 5
   m_Name: Gas Option
   m_TagString: Untagged
@@ -1695,3 +1738,16 @@ MonoBehaviour:
   backgroundImageActive: {r: 0.05882353, g: 0.3137255, b: 0.11764706, a: 0.9411765}
   imageInactive: {r: 1, g: 1, b: 1, a: 0.1254902}
   imageActive: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &5795054408626559204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625569259739720581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.OnScreen.OnScreenButton
+  m_ControlPath: <Keyboard>/3
